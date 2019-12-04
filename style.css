@@ -1,0 +1,30 @@
+.box-office {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+  padding-top    : 50px;
+  text-align     : center;
+}
+
+.office-link {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+.office-tittle {
+  font-weight  : 600;
+  color        : black;
+  margin-bottom: 10px;
+}
+
+.office-link a {
+  color           : white;
+  background-color: #d83b01;
+  width           : 220px;
+  padding         : 10px 0px;
+  font-weight     : 800;
+  border          : 2px solid white;
+}
