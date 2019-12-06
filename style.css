@@ -67,11 +67,26 @@
 }
 
 .box-red_social {
-  display: flex;
+  display        : flex;
+  justify-content: space-between;
 }
 
+.linea {
+  border-top: 1px solid black;
+}
 
 .list-icon {
   list-style: none;
   display   : flex;
+}
+
+.list-icon li {
+  margin-left: 10px;
+}
+
+.red-social_tittle {
+  margin-bottom: 4px;
+  color        : #000;
+  font-size    : 20px;
+  font-weight  : 800;
 }
