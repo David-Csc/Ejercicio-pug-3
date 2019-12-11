@@ -25,11 +25,11 @@ html(lang="es")
 
       .bkg-color
         .container
-          .box-service.pt-5
-            div
+          .row.pt-5
+            div.col-12.col-md-4
               h2.service-tittle  Qué es Office 365
               p Office 365 es un servicio de suscripción basado en la nube que reúne las mejores herramientas para la forma de trabajar de hoy en día. Al combinar las mejores aplicaciones de su categoría, como Excel y Outlook, con servicios de gran utilidad en la nube, como OneDrive y Microsoft Teams, Office 365 permite a los usuarios crear y compartir desde cualquier lugar y dispositivo.
-        div.pt-5
+            div.col-12.col-md-8.pt-5
               img.img-fluid(src="img/RE49D7o.webp", alt="tablet")
 
       .container
@@ -53,8 +53,8 @@ html(lang="es")
               img.mt-5.img-fluid(src="img/RE3hKSi.png", alt="")
               h4.mt-4 Ámbito educativo
               a.mt-3(href="#") Más Informacion
-
-      .container.linea
+      .linea
+      .container
         .box-red_social.py-5
           div.red-social_tittle
             span Seguir Office
@@ -74,29 +74,29 @@ html(lang="es")
 
       footer.py-5
         .container
-          .box-footer
-            .box
+          .row
+            .col-sm-6.col-md-4
               span Novedades
               ul.list-foot
                 li
                   a(href="") Aplicaciones de Windows 10
                 li
                   a(href="") Aplicaciones de Office
-            .box
+            .col-sm-6.col-md-4
               span Educación
               ul.list-foot
                 li
                   a(href="") Office 365 para escuelas
                 li
                   a(href="") Microsoft Azure en educacion
-            .box
+            .col-sm-6.col-md-4
               span Empresa
               ul.list-foot
                 li
                   a(href="") Microsoft Azure
                 li
                   a(href="") Recursos para asociados de Microsoft
-            .box
+            .col-sm-6.col-md-4
               span Desarrollador
               ul.list-foot
                 li
@@ -109,7 +109,7 @@ html(lang="es")
                   a(href="") Channel 9
                 li
                   a(href="") Centro para desarrolladores de Office
-            .box
+            .col-sm-6.col-md-4
               span Compañia
               ul.list-foot
                 li
@@ -121,7 +121,7 @@ html(lang="es")
                 li
                   a(href="") Inversionistas 
 
-          .box-foot_two 
+          .box-foot_two.py-3
             div.box-world
               i.fas.fa-globe-americas 
               a(href="#")  Spanish (Other)
@@ -133,7 +133,6 @@ html(lang="es")
                   a(href="#") Privacy & Cookies
                 li
                   a(href="#") Terms of Use
-              ul.list-foot.list-foot--two  
                 li
                   a(href="#") Trademarks
                 li
